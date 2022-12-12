@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+header {
+    height: auto;
+    
+
+    /* background-color: #97aed3; */
+    
+}
+
+center {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-family: 'Herr Von Muellerhoff';
+    font-weight: 200;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    color: rgb(22, 183, 201);
+
+
+
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+nav ul li {
+    list-style: none;
+
+    padding: 0 26px;
+
+
+}
+
+nav {
+    display: flex;
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+}
+
+.pizza img {
+    width: 70px;
+    padding: 0 25px;
+    animation: rotate 4.5s linear infinite;
+}
+
+
+
+
+li:hover {
+
+    font-weight: bolder;
+    font-size: 55px;
+
+}
+
+nav ul li a {
+    color: rgb(224, 18, 18);
+    text-decoration: solid;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.search input {
+    height: 23px;
+    width: 455px;
+    border-radius: 22px;
+
+}
+
+.login {
+    display: flex;
+    align-items: center;
+
+}
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+footer {
+    height: 20vh;
+    
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+@keyframes rotate {
+
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        ;
+    }
+
+
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 100vh;
+    width: calc(100vw-22px);
+    overflow: hidden;
+    margin: 5px;
+
+}
+
+.slider img {
+    display: block;
+    margin: 5px;
+    transform: translate();
+}
+
+.img1 {
+    transform: translate(0vw);
+    animation: slide2 20s linear infinite forwards;
+
+}
+
+.img2 {
+    transform: translate(0vw);
+    animation: slide2 20s linear infinite forwards;
+    
+
+
+}
+
+.img3 {
+    transform: translate(0vw);
+    animation: slide2 20s linear infinite forwards;
+
+}
+.img4 {
+    transform: translate(0vw);
+    animation: slide2 20s linear infinite forwards;
+
+}
+.img5{
+    transform: translate(0vw);
+    animation: slide2 20s linear infinite forwards;
+
+}
+
+@keyframes slide1 {
+
+
+    0% {
+        transform: translate(0vw);
+    }
+
+    100% {
+        transform: translate(100vw);
+    }
+
+
+}
+
+@keyframes slide2 {
+
+
+    0% {
+        transform: translate(-300vw);
+    }
+
+    100% {
+        transform: translate(300vw);
+    }
+
+
+}
+
+.card{
+    border: 1px black;
+}
+.card-item{
+    border: 1px rgb(213, 21, 21);
+    display: flex;
+     
+}
+
+
+
+

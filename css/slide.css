@@ -1,0 +1,195 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.card{
+    height: 623px;
+    width: 100vw;
+    
+    display: flex;
+    
+
+}
+.carditme{
+    height: 583px;
+    border: 1px solid black;
+    width: 466.4px;
+    margin: 20px;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    color: white;
+
+}
+.name{
+    height: 623px;
+    font-size: 49px;
+    font-style: italic;
+    font-weight: bolder;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    position: relative;
+}
+.inner{
+    position:absolute;
+    top:0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 583px;
+    
+
+}
+.carditme:hover .inner{
+    display: block;
+    transition-delay: 0.25s;
+}
+.variety{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid transparent;
+    margin: 5px;
+    padding: 5px;
+}
+.a{
+    height: 280px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.link{
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+
+}
+
+body{
+    min-height: 100vh;
+    background-color: #0c192c;
+    animation: animate 10s linear infinite;
+
+}
+
+
+@keyframes animate {
+    0%{
+        background-color: #1b3a69;
+    }
+    10%{
+        background-color: #237bb2;
+    }
+    20%{
+        background-color: #4189f7;
+    }
+    30%{
+        background-color: #37ace6;
+    }
+    40%{
+        background-color: #34bde3;
+    }
+    50%{
+        background-color: #268aae;
+    }
+    60%{
+        background-color: #1b3a69;
+    }
+    75%{
+        background-color: #265dae;
+    }
+    80%{
+        background-color: #4189f7;
+    }
+    85%{
+        background-color: #37ace6;
+    }
+    90%{
+        background-color: #34bde3;
+    }
+    100%{
+        background-color: #268aae;
+    }
+    
+
+
+    
+}
+
+.map{
+
+    border: black;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+.maps{
+    margin: 10px;
+    width: 90%;
+    height: 50vh;
+
+}
+.contact{
+    width: 90%;
+    height: 50vh;
+    background-color: red;
+
+}
+.gg{
+    display: none;
+}
+
+.font{
+    font-size: medium;
+}
+.hh{
+
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    /* background: rgb(122, 116, 241); */
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.hha{
+    border: 1px solid black; 
+    border-radius: 50%;
+    height: 45vh;
+    width: 80%;
+    background-color: rgba(162, 216, 245, 0.605);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(234, 255, 0);
+
+
+}
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: aqua;
+}
+.loginbox{
+    height: 45vh;
+    width: 45vw;
+    background-color: red;
+    border: 15px solid black;
+    border-radius: 23px;
+}
